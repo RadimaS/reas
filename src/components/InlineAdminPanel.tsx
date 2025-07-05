@@ -123,7 +123,7 @@ const InlineAdminPanel: React.FC = () => {
       {/* Site Content with Admin Context - отступ сверху для панели инструментов */}
       <div className="pt-20">
         <AdminContextProvider value={adminContext}>
-          <AdminHeader />
+          
           <AdminHero />
           <AdminAbout />
           <AdminServices />
