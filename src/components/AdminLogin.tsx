@@ -87,8 +87,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
           </button>
         </form>
 
-        
-        </div>
+      
       </div>
     </div>
   );
