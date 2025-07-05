@@ -15,7 +15,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
     e.preventDefault();
     
     // Простая проверка логина и пароля
-    if (username === 'admin' && password === 'admin123') {
+    if (username === 'reas' && password === 'reas2025@') {
       localStorage.setItem('adminLoggedIn', 'true');
       onLogin();
       setError('');
@@ -87,10 +87,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
           </button>
         </form>
 
-        <div className="mt-6 p-4 bg-slate-700/50 rounded-lg">
-          <p className="text-xs text-gray-400 text-center">
-            Демо-доступ: admin / admin123
-          </p>
+        
         </div>
       </div>
     </div>
